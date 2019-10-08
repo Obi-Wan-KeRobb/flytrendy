@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Static Site Boilerplate</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+<link rel="shortcut icon" href="/images/favicons/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"><link rel="manifest" href="/images/favicons/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="Flytrendy"><link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="/images/favicons/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="/images/favicons/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Flytrendy"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="style.e5d3502180f688ae1d85.css" rel="stylesheet"></head>
+<body>
+    
+    <!-- navbar -->
+    <header class="header">
+        <nav class="navigation sticky">
+            <div class="navigation__logo">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/logo_flytrendy.png" alt="logo flytrendy" class="logo__picture">
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation__wrapper">
+                <div class="navigation__menu">
+                    <div class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="/influencer" class="menu__link selected" >influencers</a></li>
+                            <li class="menu__item"><a href="/brand" class="menu__link" >brands</a></li>
+                            <li class="menu__item"><a href="/pricing" class="menu__link" >Services</a></li>
+                            <li class="menu__item"><a href="/aboutus" class="menu__link" >About</a></li>
+                            <li class="menu__item"><a href="/clients" class="menu__link" >Clienti</a></li>
+                            <li class="menu__item"><a href="/faq" class="menu__link" >FAQ's</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="navigation__CtA">
+                    <div class="navigation__campaign">
+                        <a class="button button--green" href="">Inizia campagna</a>
+                    </div>
+                    <div class="navigation__login">
+                        <a href="" class="brand-login">Login Brand</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation__hamburger">
+                <div class="hamburger" id="hamburger-5">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>    
+
+            
+        </nav>
+    </header>
+
+    <!-- content -->
+    <section class="hero-homePage" data-aos="fade-up">
+        <div class="hero-homePage__content">
+            <div class="hero-homePage__text">
+                <h1 class="hero-homepage__mainTitle">
+                    Influcer Marketing
+                </h1>
+                    <h2 class="hero-homePage__title">
+                        <span class="changeFont">Rivoluziona</span class="changeFont"> le tue <span class="changeFont">campagne</span class="changeFont"><br />Flytrendy è la soluzione!
+                    </h2>
+                    <div class="hero-homePage__support-title">
+                        <ul class="hero-homePage__tags">
+                            <li class="hero-homePage__tag">Conveniente</li>
+                            <li class="hero-homePage__tag">Efficace</li>
+                            <li class="hero-homePage__tag">Autentico</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="hero-homePage__action">
+                    <a class="button button--purple-white" href="">Comincia subito</a>
+                </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="col">
+                    <h2 class="advantages__title green">Indipendentemente dalla dimensione della tua sfida,<br />Flytrendy è all'altezza</h2>
+                </div>
+            </div>
+
+            <div class="row advantages__all">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="advantage">
+                        <div class="advantage__background first">
+                            <h4 class="advantage__title green">Modulabile</h4>
+                        </div>
+                        <p class="advantage__description">Diamo forza al tuo obiettivo con qualsiasi budget a disposizione</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos-delay="100" data-aos="fade-up">
+                    <div class="advantage">
+                        <div class="advantage__background second" >
+                            <h4 class="advantage__title purple">Trasparente</h4>
+                        </div>
+                        <p class="advantage__description">Analizzare i profili degli influencer per capire chi meglio si adatta alla tua campagna</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos-delay="200" data-aos="fade-up">
+                    <div class="advantage">
+                        <div class="advantage__background third">
+                            <h4 class="advantage__title green">Automatizzato</h4>
+                        </div>
+                        <p class="advantage__description">Tuteliamo la tua campagna e il tuo Brand grazie alla nostra tecnologia </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video" >
+        <div class="container">
+            <div class="row" data-aos="fade-in">
+                <div class="col">
+                    <h2 class="video__title white">Cos'è Flytrendy</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="video__support-text">
+                        <p class="video__support-description">
+                            FlyTrendy è un'unica ed innovativa piattaforma di Social Marketing che connette i Marchi con i Consumatori Influencers per pubblicizzare i loro prodotti tramite la grande influenza del passaparola.
+                        </p>
+                        <p class="video__support-description">
+                            La nostra potente Piattaforma tecnologica autoservita permette ai Marchi di pubblicare GRATUITAMENTE dei Brief e far sì che gli Influencer di talento rispondano con fantastici ed autentici contenuti creativi!
+                        </p>
+                        <p class="video__support-description">
+                            I Brand ricevono proposte innovative direttamente nella loro casella Inbox FlyTrendy. Li possono esaminare e se sono soddisfatti accettare i contenuti e farli pubblicare su Facebook, Instagram o Twitter.
+                        </p>
+                        <p class="video__support-description">
+                                I Marchi non devono impegnare un solo centesimo prima di essere celebrati sui social media da migliaia di consumatori interessati.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="video__player">
+                            <video
+                                id="my-player"
+                                class="video-js"
+                                controls
+                                preload="auto"
+                                poster="video/poster.jpg"
+                                data-setup='{}'>
+                                <source src="video/brands.mp4" type="video/mp4"></source>
+                                <p class="vjs-no-js">
+                                To view this video please enable JavaScript, and consider upgrading to a
+                                web browser that
+                                <a href="https://videojs.com/html5-video-support/" target="_blank">
+                                    supports HTML5 video
+                                </a>
+                                </p>
+                            </video>    
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="submit" data-aos="fade-in">
+        <div class="submit__mailchimp">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="container">
+                            <div id="mc_embed_signup mailchimp-form">
+                                <form action="https://gmail.us4.list-manage.com/subscribe/post?u=0bbb1d9e8d0852a1b7eb90e48&amp;id=9d0fe54072" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>  
+                                    <div id="mc_embed_signup_scroll">
+                                        <div class="row">
+                                            <div class="col"><h2 class="mailchimp-form__title purple">Contattaci</h2></div>
+                                        </div>
+                                        <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="mc-field-group">
+                                                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                                                    <label for="mce-FNAME">Nome  <span class="asterisk">*</span></label>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="mc-field-group">
+                                                    <input type="text" value="" name="FLASTNAME" class="required" id="mce-FLASTNAME">
+                                                    <label for="mce-FLASTNAME">Cognome  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="mc-field-group">
+                                                    <input type="text" value="" name="FAZIENDA" class="required" id="mce-FAZIENDA">
+                                                    <label for="mce-FAZIENDA">Azienda  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="mc-field-group mc-field-group--select ">
+                                                    <select name="DADDETTI" class="required" id="mce-DADDETTI">
+                                                        <option value=""></option>
+                                                        <option value="1/20">1/20</option>
+                                                        <option value="20/50">20/50</option>
+                                                        <option value="50-150">50-150</option>
+                                                        <option value="oltre 150">oltre 150</option>
+                                                    </select>
+                                                    <label for="mce-DADDETTI">Numero addetti  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+            
+                                            <div class="col">
+                                                <div class="mc-field-group mc-field-group--select">
+                                                    <select name="SAZIENDA" class="required" id="mce-SAZIENDA">
+                                                        <option value=""></option>
+                                                        <option value="Servizi">Servizi</option>
+                                                        <option value="Industria pesante">Industria pesante</option>
+                                                        <option value="Commercio">Commercio</option>
+                                                        <option value="Settore pubblico">Settore pubblico</option>
+                                                        <option value="Business locale">Business locale</option>
+                                                        <option value="Retail">Retail</option>
+                                                        <option value="IT">IT</option>
+                                                        <option value="Telco">Telco</option>
+                                                        <option value="Artigianato">Artigianato</option>
+                                                    </select>
+                                                    <label for="mce-SAZIENDA">Settore Azienda  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="mc-field-group">
+                                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="mc-field-group size1of2">
+                                                    <input type="text" name="MMERGE5" class="required" value="" id="mce-MMERGE5">
+                                                    <label for="mce-MMERGE5">Numero telefono  <span class="asterisk">*</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <div class="row">
+                                            <div class="col">
+                                                <div id="mce-responses" class="clear">
+                                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0bbb1d9e8d0852a1b7eb90e48_9d0fe54072" tabindex="-1" value=""></div>
+                                                <div class="mailchimp-form__button">
+                                                    <input type="submit" value="Iscriviti" name="subscribe" id="mc-embedded-subscribe" class="button button--purple">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Begin Mailchimp Signup Form -->
+            
+            
+            <!--End mc_embed_signup-->
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                    <div class="footer__logo">
+                        <a href="/">
+                            <img src="images/logo_small.png" alt="logo flytrendy" class="logo__picture">
+                        </a>
+                    </div>
+               </div>
+           </div>
+
+           <div class="row">
+               <div class="col-lg-6">
+                    <div class="footer__other-link">
+                        <ul>
+                            <li><a target="_blank" href="https://flytrendy.com/termsandconditions?filter=brand">Brand T&amp;C'<span>s</span></a></li>
+                            <li><a target="_blank" href="https://flytrendy.com/termsandconditions?filter=influencer">Influencer T&amp;C'<span>s</span></a></li>
+                            <li><a target="_blank" href="https://flytrendy.com/privacypolicy">privacy</a></li>
+                            <li><a target="_blank" href="https://flytrendy.com/contact">contatti</a></li>
+                        </ul>
+                    </div>
+               </div>
+               <div class="col-lg-6">
+                    <div class="footer__copyright">
+                        FlyTrendy Group Srl - Piazzale Biancamano 8, 20121 Milano – P.IVA 02609800699 <br>Copyright 2017-2019 FlyTrendy
+                    </div>
+               </div>
+           </div>
+            <div class="footer__social">
+                <li><a href="https://www.facebook.com/FlyTrendy/" target="_blank"><i aria-hidden="true" class="fa fa-4xx fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/flytrendy/" target="_blank"><i aria-hidden="true" class="fa fa-4xx fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC_dtmLHkQXsatj3JOpOeoSA/videos?view_as=subscriber" target="_blank"><i aria-hidden="true" class="fa fa-4xx fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/flytrendy/" target="_blank"><i aria-hidden="true" class="fa fa-4xx fa-linkedin"></i></a></li>
+            </div>
+       </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+<script src="main.js"></script></body>
+</html>
